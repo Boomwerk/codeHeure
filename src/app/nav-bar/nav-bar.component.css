@@ -1,0 +1,97 @@
+nav{
+    position: fixed;
+    background:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+
+.logo{
+    width:186px;
+    margin-left: 3%;
+    z-index: 2;
+}
+
+.logo img{
+    width:100%;
+}
+
+
+.link{
+    display: flex;
+    justify-content: end;
+    width:45%;
+    margin-right: 4%;
+    cursor: pointer;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.link a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-right: 4%;
+}
+
+.link img{
+    margin-right: 3px;
+}
+
+.link a:hover{
+    border-bottom: 3px cyan solid;
+}
+
+
+@media screen and (max-width: 834px) {
+
+
+    /* ***************** */
+    /* menu Burger */
+    /* ***************** */
+
+    .menu{
+        margin-right: 11%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 26px;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .menu span{
+        width: 100%;
+        background: cyan;
+        width: 46px;
+        height: 4px;
+    }
+
+    /* ***************** */
+    /* Menu burger */
+    /* ***************** */
+
+    .link{
+        position: absolute;
+        top:-100vh;
+        left: 0;
+        width:100vw;
+        height:86vh;
+        background:black;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+}

@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+html, body{
+    margin: 0;
+    padding:0;
+    overflow-x: hidden;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 64%, rgba(0,241,255,1) 100%);
+}
+
+.forumPresentation:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}

@@ -1,0 +1,38 @@
+<nav>
+
+    <div class="logo">
+        <img src="../../assets/image/logoCodheur.png" alt="">
+    </div>
+
+    <div class="menu" (click)="menu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="link" #link>
+
+        <a [routerLink]="['/']" routerLinkActive="router-link-active" >
+            
+            <img src="../../assets/image/Icon awesome-home.png" alt="">
+            <p>Accueil</p>
+        </a>
+        <a  [routerLink]="['/authentification']" routerLinkActive="router-link-active">
+            <img src="../../assets/image/IconUser.png" alt="">
+            <p>Inscription/Connexion</p>
+        </a>
+        <a>
+            <img src="../../assets/image/Icon material-forum-1.png" alt="">
+            <p>Forums</p>
+        </a>
+        <a>
+            <img src="../../assets/image/IconCode.png" alt="">
+            <p>VeilleTechno</p>
+        </a>
+        <a>
+            <img src="../../assets/image/IconEmail.png" alt="">
+            <p>Contact</p>
+        </a>
+    </div>
+    
+</nav>
